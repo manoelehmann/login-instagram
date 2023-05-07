@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Instagram Sans';
+    src: local('Instagram Sans Script Bold'), local('Instagram-Sans-Script-Bold'),
+        url('InstagramSansScript-Bold.woff2') format('woff2'),
+        url('InstagramSansScript-Bold.woff') format('woff'),
+        url('InstagramSansScript-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
