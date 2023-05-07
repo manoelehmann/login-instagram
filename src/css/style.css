@@ -11,7 +11,85 @@
 
 .principal{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.facebook{
+    height: 20px;
+    width: 20px;
+}
+
+.microsoft{
+    height: 50px;
+}
+
+.google-play{
+    height: 50px;
+}
+
+.principal-login{
+margin-left: 40px;
+}
+
+.insta{
+    font-family: 'Insta';
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.main-input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.952);
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.main-input,input{
+    margin: 3px;
+}
+
+
+.main-register{
+    border: 1px solid rgba(160, 160, 160, 0.534);
+    width: 350;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.border-left::after{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.border-right{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.main-obtenha{
+    margin-left: 100px;
+}
+
+.email{
+    width: 270px;
+    height: 40px;
+    padding: 10px;
+}
+
+.password{
+    width: 270px;
+    height: 40px;
+    padding: 10px;
 }
