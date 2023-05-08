@@ -5,7 +5,7 @@
 }
 
 .microsoft{
-    height: 50px;
+    height: 45px;
 }
 
 .google-play{
@@ -38,7 +38,7 @@
 
 .principal-login{
     background-color: rgb(255, 255, 255);
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 /* border: 1px solid rgba(160, 160, 160, 0.534);*/
@@ -195,4 +195,19 @@ input{
     font-family: 'segoe ui', sans-serif;
     color:rgb(160, 160, 160);
     font-weight: bold;
+}
+
+.main-obtenha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'segoe ui', sans-serif;
+    font-size: 14px;
+}
+
+.obtenha{
+    margin-top: 10px;
 }
